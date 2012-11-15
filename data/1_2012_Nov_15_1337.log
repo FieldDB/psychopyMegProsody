@@ -1,0 +1,481 @@
+4.8355	EXP	Set Window color=[ 0.  0.  0.] (rgb)
+8.9132	EXP	Started presenting text
+18.9637	EXP	Imported ../conditionsFiles/Meg_prosody_block1.xlsx as conditions, 78 conditions, 11 params
+18.9657	EXP	Created sequence: sequential, trialTypes=78, nReps=1, seed=None
+19.0261	EXP	New trial (rep=0, index=0): {u'inc_response': 96, u'stim': u'1_fea_sw_trimF', u'kross': u'cross.bmp', u'presentation_order': 1, u'zcue': 0.97211157047895325, u'correct_response': 66, u'iSI': 2.688027210884353, u'pros_stim': u'1_fea_sw_trimF.wav', u'event_code': 25, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 2}
+19.0322	EXP	Stopped presenting text
+19.5324	EXP	Started presenting fixation
+20.2191	EXP	Stopped presenting fixation
+20.2191	EXP	Started presenting emoticons
+22.9089	EXP	New trial (rep=0, index=1): {u'inc_response': 80, u'stim': u'2_ang_qw_trimF', u'kross': u'cross.bmp', u'presentation_order': 2, u'zcue': -1.4805664680963626, u'correct_response': 50, u'iSI': 3.5404761904761903, u'pros_stim': u'2_ang_qw_trimF.wav', u'event_code': 9, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 3}
+22.9249	EXP	Stopped presenting emoticons
+22.9896	DATA	Keypress: 2
+23.4110	EXP	Started presenting fixation
+24.9552	EXP	Stopped presenting fixation
+24.9552	EXP	Started presenting emoticons
+26.9098	EXP	New trial (rep=0, index=2): {u'inc_response': 97, u'stim': u'4_fea_sw_trimF', u'kross': u'cross.bmp', u'presentation_order': 3, u'zcue': 0.98948011330479291, u'correct_response': 67, u'iSI': 3.0989115646258503, u'pros_stim': u'4_fea_sw_trimF.wav', u'event_code': 26, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 2}
+26.9228	EXP	Stopped presenting emoticons
+27.4117	EXP	Started presenting fixation
+28.5168	EXP	Stopped presenting fixation
+28.5168	EXP	Started presenting emoticons
+30.9097	EXP	New trial (rep=0, index=3): {u'inc_response': 84, u'stim': u'4_ang_qw_trimF', u'kross': u'cross.bmp', u'presentation_order': 4, u'zcue': -0.41232228679959398, u'correct_response': 54, u'iSI': 3.1113832199546403, u'pros_stim': u'4_ang_qw_trimF.wav', u'event_code': 13, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 3}
+30.9228	EXP	Stopped presenting emoticons
+31.4118	EXP	Started presenting fixation
+32.5265	EXP	Stopped presenting fixation
+32.5265	EXP	Started presenting emoticons
+34.0030	DATA	Keypress: 3
+34.0047	EXP	New trial (rep=0, index=4): {u'inc_response': 73, u'stim': u'4_hap_qs_trimF', u'kross': u'cross.bmp', u'presentation_order': 5, u'zcue': -0.53706073129766818, u'correct_response': 43, u'iSI': 3.75081632653061, u'pros_stim': u'4_hap_qs_trimF.wav', u'event_code': 3, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 1}
+34.0212	EXP	Stopped presenting emoticons
+34.5068	EXP	Started presenting fixation
+36.2603	EXP	Stopped presenting fixation
+36.2603	EXP	Started presenting emoticons
+36.6147	DATA	Keypress: 3
+36.6202	EXP	New trial (rep=0, index=5): {u'inc_response': 71, u'stim': u'4_hap_qw_trimF', u'kross': u'cross.bmp', u'presentation_order': 6, u'zcue': -1.1424907215263371, u'correct_response': 41, u'iSI': 3.13696145124716, u'pros_stim': u'4_hap_qw_trimF.wav', u'event_code': 1, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 1}
+36.6328	EXP	Stopped presenting emoticons
+37.1219	EXP	Started presenting fixation
+38.2648	EXP	Stopped presenting fixation
+38.2648	EXP	Started presenting emoticons
+39.8570	DATA	Keypress: 2
+39.8585	EXP	New trial (rep=0, index=6): {u'inc_response': 85, u'stim': u'3_ang_qs_trimF', u'kross': u'cross.bmp', u'presentation_order': 7, u'zcue': 0.15674237052672263, u'correct_response': 55, u'iSI': 3.16766439909297, u'pros_stim': u'3_ang_qs_trimF.wav', u'event_code': 14, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 3}
+39.8715	EXP	Stopped presenting emoticons
+40.3605	EXP	Started presenting fixation
+41.5335	EXP	Stopped presenting fixation
+41.5335	EXP	Started presenting emoticons
+42.3878	DATA	Keypress: 1
+42.3925	EXP	New trial (rep=0, index=7): {u'inc_response': 78, u'stim': u'3_hap_qs_trimF', u'kross': u'cross.bmp', u'presentation_order': 8, u'zcue': 1.4242230970513805, u'correct_response': 48, u'iSI': 3.3681859410430799, u'pros_stim': u'3_hap_qs_trimF.wav', u'event_code': 8, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 1}
+42.4017	EXP	Stopped presenting emoticons
+42.8946	EXP	Started presenting fixation
+44.2656	EXP	Stopped presenting fixation
+44.2656	EXP	Started presenting emoticons
+44.5211	DATA	Keypress: 1
+44.5227	EXP	New trial (rep=0, index=8): {u'inc_response': 92, u'stim': u'3_fea_sw_trimF', u'kross': u'cross.bmp', u'presentation_order': 9, u'zcue': -0.63412378462273378, u'correct_response': 62, u'iSI': 3.3168480725623501, u'pros_stim': u'3_fea_sw_trimF.wav', u'event_code': 21, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 2}
+44.5388	EXP	Stopped presenting emoticons
+45.0245	EXP	Started presenting fixation
+46.3475	EXP	Stopped presenting fixation
+46.3475	EXP	Started presenting emoticons
+47.6403	DATA	Keypress: 2
+47.6419	EXP	New trial (rep=0, index=9): {u'inc_response': 72, u'stim': u'1_hap_ss_trimF', u'kross': u'cross.bmp', u'presentation_order': 10, u'zcue': -1.1293393049458027, u'correct_response': 42, u'iSI': 3.8270294784580399, u'pros_stim': u'1_hap_ss_trimF.wav', u'event_code': 2, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 1}
+47.6611	EXP	Stopped presenting emoticons
+48.1440	EXP	Started presenting fixation
+49.9744	EXP	Stopped presenting fixation
+49.9744	EXP	Started presenting emoticons
+51.0999	DATA	Keypress: 3
+51.1016	EXP	New trial (rep=0, index=10): {u'inc_response': 74, u'stim': u'2_hap_qs_trimF_trimF', u'kross': u'cross.bmp', u'presentation_order': 11, u'zcue': -0.3072020091293417, u'correct_response': 44, u'iSI': 3.2894784580498797, u'pros_stim': u'2_hap_qs_trimF.wav', u'event_code': 4, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 1}
+51.1110	EXP	Stopped presenting emoticons
+51.6042	EXP	Started presenting fixation
+52.8997	EXP	Stopped presenting fixation
+52.8997	EXP	Started presenting emoticons
+54.7055	DATA	Keypress: 2
+54.7075	EXP	New trial (rep=0, index=11): {u'inc_response': 83, u'stim': u'2_ang_qs_trimF', u'kross': u'cross.bmp', u'presentation_order': 12, u'zcue': -0.62197768686718324, u'correct_response': 53, u'iSI': 3.5562358276643899, u'pros_stim': u'2_ang_qs_trimF.wav', u'event_code': 12, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 3}
+54.7225	EXP	Stopped presenting emoticons
+55.2094	EXP	Started presenting fixation
+56.7689	EXP	Stopped presenting fixation
+56.7689	EXP	Started presenting emoticons
+58.1914	DATA	Keypress: 2
+58.1932	EXP	New trial (rep=0, index=12): {u'inc_response': 93, u'stim': u'2_fea_ss_trimF', u'kross': u'cross.bmp', u'presentation_order': 13, u'zcue': 0.16624841156760786, u'correct_response': 63, u'iSI': 3.0609977324263, u'pros_stim': u'2_fea_ss_trimF.wav', u'event_code': 22, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 2}
+58.2027	EXP	Stopped presenting emoticons
+58.6955	EXP	Started presenting fixation
+59.7646	EXP	Stopped presenting fixation
+59.7646	EXP	Started presenting emoticons
+61.1011	DATA	Keypress: 2
+61.1027	EXP	New trial (rep=0, index=13): {u'inc_response': 94, u'stim': u'1_fea_ss_trimF', u'kross': u'cross.bmp', u'presentation_order': 14, u'zcue': 0.46505470843950819, u'correct_response': 64, u'iSI': 3.6325170068027202, u'pros_stim': u'1_fea_ss_trimF.wav', u'event_code': 23, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 2}
+61.1137	EXP	Stopped presenting emoticons
+61.6047	EXP	Started presenting fixation
+63.2428	EXP	Stopped presenting fixation
+63.2428	EXP	Started presenting emoticons
+65.1068	EXP	New trial (rep=0, index=14): {u'inc_response': 87, u'stim': u'4_ang_qs_trimF', u'kross': u'cross.bmp', u'presentation_order': 15, u'zcue': 0.80567575168831174, u'correct_response': 57, u'iSI': 3.9615873015872998, u'pros_stim': u'4_ang_qs_trimF.wav', u'event_code': 16, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 3}
+65.1214	EXP	Stopped presenting emoticons
+65.1653	DATA	Keypress: 3
+65.6087	EXP	Started presenting fixation
+67.5768	EXP	Stopped presenting fixation
+67.5768	EXP	Started presenting emoticons
+67.8398	DATA	Keypress: 3
+67.8445	EXP	New trial (rep=0, index=15): {u'inc_response': 89, u'stim': u'4_ang_ss_trimF', u'kross': u'cross.bmp', u'presentation_order': 16, u'zcue': 1.4046911804528555, u'correct_response': 59, u'iSI': 3.9851927437641699, u'pros_stim': u'4_ang_ss_trimF.wav', u'event_code': 18, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 3}
+67.8621	EXP	Stopped presenting emoticons
+68.3465	EXP	Started presenting fixation
+70.3376	EXP	Stopped presenting fixation
+70.3376	EXP	Started presenting emoticons
+70.5735	DATA	Keypress: 3
+70.5754	EXP	New trial (rep=0, index=16): {u'inc_response': 75, u'stim': u'2_hap_sw_trimF', u'kross': u'cross.bmp', u'presentation_order': 17, u'zcue': 0.063624465804048597, u'correct_response': 45, u'iSI': 3.18668934240362, u'pros_stim': u'2_hap_sw_trimF.wav', u'event_code': 5, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 1}
+70.5852	EXP	Stopped presenting emoticons
+71.0775	EXP	Started presenting fixation
+72.2692	EXP	Stopped presenting fixation
+72.2692	EXP	Started presenting emoticons
+73.0050	DATA	Keypress: 1
+73.0094	EXP	New trial (rep=0, index=17): {u'inc_response': 95, u'stim': u'4_fea_qs_trimF', u'kross': u'cross.bmp', u'presentation_order': 18, u'zcue': 0.78164074653547022, u'correct_response': 65, u'iSI': 3.9427210884353698, u'pros_stim': u'4_fea_qs_trimF.wav', u'event_code': 24, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 2}
+73.0224	EXP	Stopped presenting emoticons
+73.5118	EXP	Started presenting fixation
+75.4591	EXP	Stopped presenting fixation
+75.4591	EXP	Started presenting emoticons
+75.8363	DATA	Keypress: 2
+75.8412	EXP	New trial (rep=0, index=18): {u'inc_response': 76, u'stim': u'3_hap_ss_trimF', u'kross': u'cross.bmp', u'presentation_order': 19, u'zcue': 0.23169249593766542, u'correct_response': 46, u'iSI': 3.35551020408163, u'pros_stim': u'3_hap_ss_trimF.wav', u'event_code': 6, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 1}
+75.8508	EXP	Stopped presenting emoticons
+76.3441	EXP	Started presenting fixation
+77.7027	EXP	Stopped presenting fixation
+77.7027	EXP	Started presenting emoticons
+77.9688	DATA	Keypress: 1
+77.9704	EXP	New trial (rep=0, index=19): {u'inc_response': 82, u'stim': u'3_ang_qw_trimF', u'kross': u'cross.bmp', u'presentation_order': 20, u'zcue': -0.7317971821406829, u'correct_response': 52, u'iSI': 2.8854421768707481, u'pros_stim': u'3_ang_qw_trimF.wav', u'event_code': 11, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 3}
+77.9794	EXP	Stopped presenting emoticons
+78.4726	EXP	Started presenting fixation
+79.3647	EXP	Stopped presenting fixation
+79.3647	EXP	Started presenting emoticons
+80.8247	DATA	Keypress: 3
+80.8290	EXP	New trial (rep=0, index=20): {u'inc_response': 88, u'stim': u'1_ang_ss_trimF', u'kross': u'cross.bmp', u'presentation_order': 21, u'zcue': 1.2549373232617196, u'correct_response': 58, u'iSI': 3.54068027210884, u'pros_stim': u'1_ang_ss_trimF.wav', u'event_code': 17, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 3}
+80.8387	EXP	Stopped presenting emoticons
+81.3315	EXP	Started presenting fixation
+82.8780	EXP	Stopped presenting fixation
+82.8780	EXP	Started presenting emoticons
+83.9780	DATA	Keypress: 3
+83.9795	EXP	New trial (rep=0, index=21): {u'inc_response': 91, u'stim': u'3_fea_qs_trimF', u'kross': u'cross.bmp', u'presentation_order': 22, u'zcue': -1.1913061482898895, u'correct_response': 61, u'iSI': 3.7509750566893398, u'pros_stim': u'3_fea_qs_trimF.wav', u'event_code': 20, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 2}
+83.9942	EXP	Stopped presenting emoticons
+84.4813	EXP	Started presenting fixation
+86.2396	EXP	Stopped presenting fixation
+86.2396	EXP	Started presenting emoticons
+86.5662	DATA	Keypress: 2
+86.5678	EXP	New trial (rep=0, index=22): {u'inc_response': 90, u'stim': u'3_fea_ss_trimF', u'kross': u'cross.bmp', u'presentation_order': 23, u'zcue': -1.5491056174137092, u'correct_response': 60, u'iSI': 3.30308390022675, u'pros_stim': u'3_fea_ss_trimF.wav', u'event_code': 19, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 2}
+86.5779	EXP	Stopped presenting emoticons
+87.0704	EXP	Started presenting fixation
+88.3802	EXP	Stopped presenting fixation
+88.3802	EXP	Started presenting emoticons
+88.7190	DATA	Keypress: 2
+88.7245	EXP	New trial (rep=0, index=23): {u'inc_response': 77, u'stim': u'3_hap_qw_trimF', u'kross': u'cross.bmp', u'presentation_order': 24, u'zcue': 1.3965527081060551, u'correct_response': 47, u'iSI': 3.0733333333333297, u'pros_stim': u'3_hap_qw_trimF.wav', u'event_code': 7, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 1}
+88.7340	EXP	Stopped presenting emoticons
+89.2268	EXP	Started presenting fixation
+90.3039	EXP	Stopped presenting fixation
+90.3039	EXP	Started presenting emoticons
+91.5494	DATA	Keypress: 1
+91.5512	EXP	New trial (rep=0, index=24): {u'inc_response': 81, u'stim': u'2_ang_ss_trimF', u'kross': u'cross.bmp', u'presentation_order': 25, u'zcue': -1.0313048965229548, u'correct_response': 51, u'iSI': 3.6721768707482898, u'pros_stim': u'2_ang_ss_trimF.wav', u'event_code': 10, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 3}
+91.5655	EXP	Stopped presenting emoticons
+92.0535	EXP	Started presenting fixation
+93.7304	EXP	Stopped presenting fixation
+93.7304	EXP	Started presenting emoticons
+94.0012	DATA	Keypress: 3
+94.0028	EXP	New trial (rep=0, index=25): {u'inc_response': 86, u'stim': u'4_ang_sw_trimF', u'kross': u'cross.bmp', u'presentation_order': 26, u'zcue': 0.65592189449717464, u'correct_response': 56, u'iSI': 3.4781405895691599, u'pros_stim': u'4_ang_sw_trimF.wav', u'event_code': 15, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 3}
+94.0190	EXP	Stopped presenting emoticons
+94.5046	EXP	Started presenting fixation
+95.9891	EXP	Stopped presenting fixation
+95.9891	EXP	Started presenting emoticons
+96.2614	DATA	Keypress: 3
+96.2631	EXP	New trial (rep=0, index=26): {u'inc_response': 96, u'stim': u'1_fea_sw_trimF', u'kross': u'cross.bmp', u'presentation_order': 27, u'zcue': 0.97211157047895325, u'correct_response': 66, u'iSI': 2.688027210884353, u'pros_stim': u'1_fea_sw_trimF.wav', u'event_code': 25, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 2}
+96.2724	EXP	Stopped presenting emoticons
+96.7650	EXP	Started presenting fixation
+97.4581	EXP	Stopped presenting fixation
+97.4581	EXP	Started presenting emoticons
+98.6822	DATA	Keypress: 2
+98.6839	EXP	New trial (rep=0, index=27): {u'inc_response': 80, u'stim': u'2_ang_qw_trimF', u'kross': u'cross.bmp', u'presentation_order': 28, u'zcue': -1.4805664680963626, u'correct_response': 50, u'iSI': 3.5404761904761903, u'pros_stim': u'2_ang_qw_trimF.wav', u'event_code': 9, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 3}
+98.6933	EXP	Stopped presenting emoticons
+99.1863	EXP	Started presenting fixation
+100.7314	EXP	Stopped presenting fixation
+100.7314	EXP	Started presenting emoticons
+102.6851	EXP	New trial (rep=0, index=28): {u'inc_response': 97, u'stim': u'4_fea_sw_trimF', u'kross': u'cross.bmp', u'presentation_order': 29, u'zcue': 0.98948011330479291, u'correct_response': 67, u'iSI': 3.0989115646258503, u'pros_stim': u'4_fea_sw_trimF.wav', u'event_code': 26, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 2}
+102.6937	EXP	Stopped presenting emoticons
+102.7113	DATA	Keypress: 2
+103.1875	EXP	Started presenting fixation
+104.2922	EXP	Stopped presenting fixation
+104.2922	EXP	Started presenting emoticons
+104.7140	DATA	Keypress: 2
+104.7156	EXP	New trial (rep=0, index=29): {u'inc_response': 84, u'stim': u'4_ang_qw_trimF', u'kross': u'cross.bmp', u'presentation_order': 30, u'zcue': -0.41232228679959398, u'correct_response': 54, u'iSI': 3.1113832199546403, u'pros_stim': u'4_ang_qw_trimF.wav', u'event_code': 13, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 3}
+104.7288	EXP	Stopped presenting emoticons
+105.2177	EXP	Started presenting fixation
+106.3343	EXP	Stopped presenting fixation
+106.3343	EXP	Started presenting emoticons
+106.9984	DATA	Keypress: 3
+107.0000	EXP	New trial (rep=0, index=30): {u'inc_response': 73, u'stim': u'4_hap_qs_trimF', u'kross': u'cross.bmp', u'presentation_order': 31, u'zcue': -0.53706073129766818, u'correct_response': 43, u'iSI': 3.75081632653061, u'pros_stim': u'4_hap_qs_trimF.wav', u'event_code': 3, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 1}
+107.0147	EXP	Stopped presenting emoticons
+107.5023	EXP	Started presenting fixation
+109.2566	EXP	Stopped presenting fixation
+109.2566	EXP	Started presenting emoticons
+110.8111	DATA	Keypress: 3
+110.8158	EXP	New trial (rep=0, index=31): {u'inc_response': 71, u'stim': u'4_hap_qw_trimF', u'kross': u'cross.bmp', u'presentation_order': 32, u'zcue': -1.1424907215263371, u'correct_response': 41, u'iSI': 3.13696145124716, u'pros_stim': u'4_hap_qw_trimF.wav', u'event_code': 1, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 1}
+110.8300	EXP	Stopped presenting emoticons
+111.3177	EXP	Started presenting fixation
+112.4605	EXP	Stopped presenting fixation
+112.4605	EXP	Started presenting emoticons
+113.2083	DATA	Keypress: 2
+113.2104	EXP	New trial (rep=0, index=32): {u'inc_response': 85, u'stim': u'3_ang_qs_trimF', u'kross': u'cross.bmp', u'presentation_order': 33, u'zcue': 0.15674237052672263, u'correct_response': 55, u'iSI': 3.16766439909297, u'pros_stim': u'3_ang_qs_trimF.wav', u'event_code': 14, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 3}
+113.2249	EXP	Stopped presenting emoticons
+113.7129	EXP	Started presenting fixation
+114.8853	EXP	Stopped presenting fixation
+114.8853	EXP	Started presenting emoticons
+115.8633	DATA	Keypress: 3
+115.8708	EXP	New trial (rep=0, index=33): {u'inc_response': 78, u'stim': u'3_hap_qs_trimF', u'kross': u'cross.bmp', u'presentation_order': 34, u'zcue': 1.4242230970513805, u'correct_response': 48, u'iSI': 3.3681859410430799, u'pros_stim': u'3_hap_qs_trimF.wav', u'event_code': 8, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 1}
+115.8802	EXP	Stopped presenting emoticons
+116.3732	EXP	Started presenting fixation
+117.7471	EXP	Stopped presenting fixation
+117.7471	EXP	Started presenting emoticons
+117.9735	DATA	Keypress: 1
+117.9782	EXP	New trial (rep=0, index=34): {u'inc_response': 92, u'stim': u'3_fea_sw_trimF', u'kross': u'cross.bmp', u'presentation_order': 35, u'zcue': -0.63412378462273378, u'correct_response': 62, u'iSI': 3.3168480725623501, u'pros_stim': u'3_fea_sw_trimF.wav', u'event_code': 21, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 2}
+117.9858	EXP	Stopped presenting emoticons
+118.4807	EXP	Started presenting fixation
+119.8027	EXP	Stopped presenting fixation
+119.8027	EXP	Started presenting emoticons
+120.6523	DATA	Keypress: 2
+120.6540	EXP	New trial (rep=0, index=35): {u'inc_response': 72, u'stim': u'1_hap_ss_trimF', u'kross': u'cross.bmp', u'presentation_order': 36, u'zcue': -1.1293393049458027, u'correct_response': 42, u'iSI': 3.8270294784580399, u'pros_stim': u'1_hap_ss_trimF.wav', u'event_code': 2, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 1}
+120.6641	EXP	Stopped presenting emoticons
+121.1562	EXP	Started presenting fixation
+122.9921	EXP	Stopped presenting fixation
+122.9921	EXP	Started presenting emoticons
+123.2128	DATA	Keypress: 3
+123.2147	EXP	New trial (rep=0, index=36): {u'inc_response': 74, u'stim': u'2_hap_qs_trimF_trimF', u'kross': u'cross.bmp', u'presentation_order': 37, u'zcue': -0.3072020091293417, u'correct_response': 44, u'iSI': 3.2894784580498797, u'pros_stim': u'2_hap_qs_trimF.wav', u'event_code': 4, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 1}
+123.2282	EXP	Stopped presenting emoticons
+123.7167	EXP	Started presenting fixation
+125.0093	EXP	Stopped presenting fixation
+125.0093	EXP	Started presenting emoticons
+127.2153	EXP	New trial (rep=0, index=37): {u'inc_response': 83, u'stim': u'2_ang_qs_trimF', u'kross': u'cross.bmp', u'presentation_order': 38, u'zcue': -0.62197768686718324, u'correct_response': 53, u'iSI': 3.5562358276643899, u'pros_stim': u'2_ang_qs_trimF.wav', u'event_code': 12, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 3}
+127.2247	EXP	Stopped presenting emoticons
+127.5329	DATA	Keypress: 2
+127.7175	EXP	Started presenting fixation
+129.2772	EXP	Stopped presenting fixation
+129.2772	EXP	Started presenting emoticons
+130.0542	DATA	Keypress: 2
+130.0569	EXP	New trial (rep=0, index=38): {u'inc_response': 93, u'stim': u'2_fea_ss_trimF', u'kross': u'cross.bmp', u'presentation_order': 39, u'zcue': 0.16624841156760786, u'correct_response': 63, u'iSI': 3.0609977324263, u'pros_stim': u'2_fea_ss_trimF.wav', u'event_code': 22, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 2}
+130.0709	EXP	Stopped presenting emoticons
+130.5597	EXP	Started presenting fixation
+131.6287	EXP	Stopped presenting fixation
+131.6287	EXP	Started presenting emoticons
+131.8426	DATA	Keypress: 2
+131.8442	EXP	New trial (rep=0, index=39): {u'inc_response': 94, u'stim': u'1_fea_ss_trimF', u'kross': u'cross.bmp', u'presentation_order': 40, u'zcue': 0.46505470843950819, u'correct_response': 64, u'iSI': 3.6325170068027202, u'pros_stim': u'1_fea_ss_trimF.wav', u'event_code': 23, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 2}
+131.8540	EXP	Stopped presenting emoticons
+132.3461	EXP	Started presenting fixation
+133.9824	EXP	Stopped presenting fixation
+133.9824	EXP	Started presenting emoticons
+134.7205	DATA	Keypress: 2
+134.7221	EXP	New trial (rep=0, index=40): {u'inc_response': 87, u'stim': u'4_ang_qs_trimF', u'kross': u'cross.bmp', u'presentation_order': 41, u'zcue': 0.80567575168831174, u'correct_response': 57, u'iSI': 3.9615873015872998, u'pros_stim': u'4_ang_qs_trimF.wav', u'event_code': 16, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 3}
+134.7315	EXP	Stopped presenting emoticons
+135.2242	EXP	Started presenting fixation
+137.1922	EXP	Stopped presenting fixation
+137.1922	EXP	Started presenting emoticons
+137.5385	DATA	Keypress: 3
+137.5414	EXP	New trial (rep=0, index=41): {u'inc_response': 89, u'stim': u'4_ang_ss_trimF', u'kross': u'cross.bmp', u'presentation_order': 42, u'zcue': 1.4046911804528555, u'correct_response': 59, u'iSI': 3.9851927437641699, u'pros_stim': u'4_ang_ss_trimF.wav', u'event_code': 18, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 3}
+137.5568	EXP	Stopped presenting emoticons
+138.0444	EXP	Started presenting fixation
+140.0346	EXP	Stopped presenting fixation
+140.0346	EXP	Started presenting emoticons
+140.5895	DATA	Keypress: 3
+140.5912	EXP	New trial (rep=0, index=42): {u'inc_response': 75, u'stim': u'2_hap_sw_trimF', u'kross': u'cross.bmp', u'presentation_order': 43, u'zcue': 0.063624465804048597, u'correct_response': 45, u'iSI': 3.18668934240362, u'pros_stim': u'2_hap_sw_trimF.wav', u'event_code': 5, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 1}
+140.6014	EXP	Stopped presenting emoticons
+141.0931	EXP	Started presenting fixation
+142.2832	EXP	Stopped presenting fixation
+142.2832	EXP	Started presenting emoticons
+143.0278	DATA	Keypress: 1
+143.0293	EXP	New trial (rep=0, index=43): {u'inc_response': 95, u'stim': u'4_fea_qs_trimF', u'kross': u'cross.bmp', u'presentation_order': 44, u'zcue': 0.78164074653547022, u'correct_response': 65, u'iSI': 3.9427210884353698, u'pros_stim': u'4_fea_qs_trimF.wav', u'event_code': 24, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 2}
+143.0390	EXP	Stopped presenting emoticons
+143.5312	EXP	Started presenting fixation
+145.4798	EXP	Stopped presenting fixation
+145.4798	EXP	Started presenting emoticons
+146.2660	DATA	Keypress: 2
+146.2708	EXP	New trial (rep=0, index=44): {u'inc_response': 76, u'stim': u'3_hap_ss_trimF', u'kross': u'cross.bmp', u'presentation_order': 45, u'zcue': 0.23169249593766542, u'correct_response': 46, u'iSI': 3.35551020408163, u'pros_stim': u'3_hap_ss_trimF.wav', u'event_code': 6, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 1}
+146.2803	EXP	Stopped presenting emoticons
+146.7729	EXP	Started presenting fixation
+148.1341	EXP	Stopped presenting fixation
+148.1341	EXP	Started presenting emoticons
+148.2193	DATA	Keypress: 1
+148.2238	EXP	New trial (rep=0, index=45): {u'inc_response': 82, u'stim': u'3_ang_qw_trimF', u'kross': u'cross.bmp', u'presentation_order': 46, u'zcue': -0.7317971821406829, u'correct_response': 52, u'iSI': 2.8854421768707481, u'pros_stim': u'3_ang_qw_trimF.wav', u'event_code': 11, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 3}
+148.2338	EXP	Stopped presenting emoticons
+148.7264	EXP	Started presenting fixation
+149.6144	EXP	Stopped presenting fixation
+149.6144	EXP	Started presenting emoticons
+150.1602	DATA	Keypress: 1
+150.1618	EXP	New trial (rep=0, index=46): {u'inc_response': 88, u'stim': u'1_ang_ss_trimF', u'kross': u'cross.bmp', u'presentation_order': 47, u'zcue': 1.2549373232617196, u'correct_response': 58, u'iSI': 3.54068027210884, u'pros_stim': u'1_ang_ss_trimF.wav', u'event_code': 17, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 3}
+150.1713	EXP	Stopped presenting emoticons
+150.6641	EXP	Started presenting fixation
+152.2083	EXP	Stopped presenting fixation
+152.2083	EXP	Started presenting emoticons
+153.2760	DATA	Keypress: 4
+153.2776	EXP	New trial (rep=0, index=47): {u'inc_response': 91, u'stim': u'3_fea_qs_trimF', u'kross': u'cross.bmp', u'presentation_order': 48, u'zcue': -1.1913061482898895, u'correct_response': 61, u'iSI': 3.7509750566893398, u'pros_stim': u'3_fea_qs_trimF.wav', u'event_code': 20, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 2}
+153.2935	EXP	Stopped presenting emoticons
+153.4202	DATA	Keypress: 4
+153.6185	DATA	Keypress: 4
+153.7794	EXP	Started presenting fixation
+153.8118	DATA	Keypress: 4
+154.0050	DATA	Keypress: 4
+154.2831	DATA	Keypress: 4
+154.7340	DATA	Keypress: 4
+155.5342	EXP	Stopped presenting fixation
+155.5342	EXP	Started presenting emoticons
+155.7603	DATA	Keypress: 4
+155.7620	EXP	New trial (rep=0, index=48): {u'inc_response': 90, u'stim': u'3_fea_ss_trimF', u'kross': u'cross.bmp', u'presentation_order': 49, u'zcue': -1.5491056174137092, u'correct_response': 60, u'iSI': 3.30308390022675, u'pros_stim': u'3_fea_ss_trimF.wav', u'event_code': 19, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 2}
+155.7735	EXP	Stopped presenting emoticons
+156.2644	EXP	Started presenting fixation
+157.5710	EXP	Stopped presenting fixation
+157.5710	EXP	Started presenting emoticons
+157.7615	DATA	Keypress: 4
+157.7632	EXP	New trial (rep=0, index=49): {u'inc_response': 77, u'stim': u'3_hap_qw_trimF', u'kross': u'cross.bmp', u'presentation_order': 50, u'zcue': 1.3965527081060551, u'correct_response': 47, u'iSI': 3.0733333333333297, u'pros_stim': u'3_hap_qw_trimF.wav', u'event_code': 7, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 1}
+157.7727	EXP	Stopped presenting emoticons
+158.2653	EXP	Started presenting fixation
+159.3432	EXP	Stopped presenting fixation
+159.3432	EXP	Started presenting emoticons
+159.3859	DATA	Keypress: 4
+159.3908	EXP	New trial (rep=0, index=50): {u'inc_response': 81, u'stim': u'2_ang_ss_trimF', u'kross': u'cross.bmp', u'presentation_order': 51, u'zcue': -1.0313048965229548, u'correct_response': 51, u'iSI': 3.6721768707482898, u'pros_stim': u'2_ang_ss_trimF.wav', u'event_code': 10, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 3}
+159.4003	EXP	Stopped presenting emoticons
+159.8929	EXP	Started presenting fixation
+161.4475	DATA	Keypress: 3
+161.5718	EXP	Stopped presenting fixation
+161.5718	EXP	Started presenting emoticons
+161.9139	DATA	Keypress: 3
+161.9154	EXP	New trial (rep=0, index=51): {u'inc_response': 86, u'stim': u'4_ang_sw_trimF', u'kross': u'cross.bmp', u'presentation_order': 52, u'zcue': 0.65592189449717464, u'correct_response': 56, u'iSI': 3.4781405895691599, u'pros_stim': u'4_ang_sw_trimF.wav', u'event_code': 15, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 3}
+161.9309	EXP	Stopped presenting emoticons
+162.4175	EXP	Started presenting fixation
+163.9012	EXP	Stopped presenting fixation
+163.9012	EXP	Started presenting emoticons
+164.1053	DATA	Keypress: 3
+164.1070	EXP	New trial (rep=0, index=52): {u'inc_response': 96, u'stim': u'1_fea_sw_trimF', u'kross': u'cross.bmp', u'presentation_order': 53, u'zcue': 0.97211157047895325, u'correct_response': 66, u'iSI': 2.688027210884353, u'pros_stim': u'1_fea_sw_trimF.wav', u'event_code': 25, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 2}
+164.1233	EXP	Stopped presenting emoticons
+164.6095	EXP	Started presenting fixation
+165.3031	EXP	Stopped presenting fixation
+165.3031	EXP	Started presenting emoticons
+165.7842	DATA	Keypress: 2
+165.7890	EXP	New trial (rep=0, index=53): {u'inc_response': 80, u'stim': u'2_ang_qw_trimF', u'kross': u'cross.bmp', u'presentation_order': 54, u'zcue': -1.4805664680963626, u'correct_response': 50, u'iSI': 3.5404761904761903, u'pros_stim': u'2_ang_qw_trimF.wav', u'event_code': 9, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 3}
+165.7987	EXP	Stopped presenting emoticons
+166.2911	EXP	Started presenting fixation
+167.8346	EXP	Stopped presenting fixation
+167.8346	EXP	Started presenting emoticons
+167.9826	DATA	Keypress: 2
+167.9872	EXP	New trial (rep=0, index=54): {u'inc_response': 97, u'stim': u'4_fea_sw_trimF', u'kross': u'cross.bmp', u'presentation_order': 55, u'zcue': 0.98948011330479291, u'correct_response': 67, u'iSI': 3.0989115646258503, u'pros_stim': u'4_fea_sw_trimF.wav', u'event_code': 26, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 2}
+168.0021	EXP	Stopped presenting emoticons
+168.4892	EXP	Started presenting fixation
+169.5918	EXP	Stopped presenting fixation
+169.5918	EXP	Started presenting emoticons
+169.6662	DATA	Keypress: 2
+169.6677	EXP	New trial (rep=0, index=55): {u'inc_response': 84, u'stim': u'4_ang_qw_trimF', u'kross': u'cross.bmp', u'presentation_order': 56, u'zcue': -0.41232228679959398, u'correct_response': 54, u'iSI': 3.1113832199546403, u'pros_stim': u'4_ang_qw_trimF.wav', u'event_code': 13, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 3}
+169.6770	EXP	Stopped presenting emoticons
+170.1702	EXP	Started presenting fixation
+171.2860	EXP	Stopped presenting fixation
+171.2860	EXP	Started presenting emoticons
+172.7510	DATA	Keypress: 3
+172.7526	EXP	New trial (rep=0, index=56): {u'inc_response': 73, u'stim': u'4_hap_qs_trimF', u'kross': u'cross.bmp', u'presentation_order': 57, u'zcue': -0.53706073129766818, u'correct_response': 43, u'iSI': 3.75081632653061, u'pros_stim': u'4_hap_qs_trimF.wav', u'event_code': 3, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 1}
+172.7646	EXP	Stopped presenting emoticons
+173.2545	EXP	Started presenting fixation
+175.0100	EXP	Stopped presenting fixation
+175.0100	EXP	Started presenting emoticons
+175.2295	DATA	Keypress: 3
+175.2313	EXP	New trial (rep=0, index=57): {u'inc_response': 71, u'stim': u'4_hap_qw_trimF', u'kross': u'cross.bmp', u'presentation_order': 58, u'zcue': -1.1424907215263371, u'correct_response': 41, u'iSI': 3.13696145124716, u'pros_stim': u'4_hap_qw_trimF.wav', u'event_code': 1, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 1}
+175.2409	EXP	Stopped presenting emoticons
+175.7334	EXP	Started presenting fixation
+176.8771	EXP	Stopped presenting fixation
+176.8771	EXP	Started presenting emoticons
+177.1220	DATA	Keypress: 2
+177.1237	EXP	New trial (rep=0, index=58): {u'inc_response': 85, u'stim': u'3_ang_qs_trimF', u'kross': u'cross.bmp', u'presentation_order': 59, u'zcue': 0.15674237052672263, u'correct_response': 55, u'iSI': 3.16766439909297, u'pros_stim': u'3_ang_qs_trimF.wav', u'event_code': 14, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 3}
+177.1369	EXP	Stopped presenting emoticons
+177.6258	EXP	Started presenting fixation
+178.7983	EXP	Stopped presenting fixation
+178.7983	EXP	Started presenting emoticons
+179.0278	DATA	Keypress: 1
+179.0295	EXP	New trial (rep=0, index=59): {u'inc_response': 78, u'stim': u'3_hap_qs_trimF', u'kross': u'cross.bmp', u'presentation_order': 60, u'zcue': 1.4242230970513805, u'correct_response': 48, u'iSI': 3.3681859410430799, u'pros_stim': u'3_hap_qs_trimF.wav', u'event_code': 8, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 1}
+179.0382	EXP	Stopped presenting emoticons
+179.5316	EXP	Started presenting fixation
+180.9036	EXP	Stopped presenting fixation
+180.9036	EXP	Started presenting emoticons
+180.9914	DATA	Keypress: 1
+180.9930	EXP	New trial (rep=0, index=60): {u'inc_response': 92, u'stim': u'3_fea_sw_trimF', u'kross': u'cross.bmp', u'presentation_order': 61, u'zcue': -0.63412378462273378, u'correct_response': 62, u'iSI': 3.3168480725623501, u'pros_stim': u'3_fea_sw_trimF.wav', u'event_code': 21, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 2}
+181.0097	EXP	Stopped presenting emoticons
+181.4949	EXP	Started presenting fixation
+182.6976	DATA	Keypress: 2
+182.8148	EXP	Stopped presenting fixation
+182.8148	EXP	Started presenting emoticons
+183.1894	DATA	Keypress: 2
+183.1911	EXP	New trial (rep=0, index=61): {u'inc_response': 72, u'stim': u'1_hap_ss_trimF', u'kross': u'cross.bmp', u'presentation_order': 62, u'zcue': -1.1293393049458027, u'correct_response': 42, u'iSI': 3.8270294784580399, u'pros_stim': u'1_hap_ss_trimF.wav', u'event_code': 2, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 1}
+183.2007	EXP	Stopped presenting emoticons
+183.6933	EXP	Started presenting fixation
+185.5265	EXP	Stopped presenting fixation
+185.5265	EXP	Started presenting emoticons
+185.7590	DATA	Keypress: 3
+185.7607	EXP	New trial (rep=0, index=62): {u'inc_response': 74, u'stim': u'2_hap_qs_trimF_trimF', u'kross': u'cross.bmp', u'presentation_order': 63, u'zcue': -0.3072020091293417, u'correct_response': 44, u'iSI': 3.2894784580498797, u'pros_stim': u'2_hap_qs_trimF.wav', u'event_code': 4, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 1}
+185.7705	EXP	Stopped presenting emoticons
+186.2630	EXP	Started presenting fixation
+187.5586	EXP	Stopped presenting fixation
+187.5586	EXP	Started presenting emoticons
+188.7537	DATA	Keypress: 2
+188.7557	EXP	New trial (rep=0, index=63): {u'inc_response': 83, u'stim': u'2_ang_qs_trimF', u'kross': u'cross.bmp', u'presentation_order': 64, u'zcue': -0.62197768686718324, u'correct_response': 53, u'iSI': 3.5562358276643899, u'pros_stim': u'2_ang_qs_trimF.wav', u'event_code': 12, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 3}
+188.7649	EXP	Stopped presenting emoticons
+189.2577	EXP	Started presenting fixation
+190.8207	EXP	Stopped presenting fixation
+190.8207	EXP	Started presenting emoticons
+191.1781	DATA	Keypress: 1
+191.1797	EXP	New trial (rep=0, index=64): {u'inc_response': 93, u'stim': u'2_fea_ss_trimF', u'kross': u'cross.bmp', u'presentation_order': 65, u'zcue': 0.16624841156760786, u'correct_response': 63, u'iSI': 3.0609977324263, u'pros_stim': u'2_fea_ss_trimF.wav', u'event_code': 22, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 2}
+191.1889	EXP	Stopped presenting emoticons
+191.6821	EXP	Started presenting fixation
+192.7488	EXP	Stopped presenting fixation
+192.7488	EXP	Started presenting emoticons
+192.9412	DATA	Keypress: 2
+192.9427	EXP	New trial (rep=0, index=65): {u'inc_response': 94, u'stim': u'1_fea_ss_trimF', u'kross': u'cross.bmp', u'presentation_order': 66, u'zcue': 0.46505470843950819, u'correct_response': 64, u'iSI': 3.6325170068027202, u'pros_stim': u'1_fea_ss_trimF.wav', u'event_code': 23, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 2}
+192.9567	EXP	Stopped presenting emoticons
+193.4452	EXP	Started presenting fixation
+195.0800	EXP	Stopped presenting fixation
+195.0800	EXP	Started presenting emoticons
+195.8627	DATA	Keypress: 3
+195.8643	EXP	New trial (rep=0, index=66): {u'inc_response': 87, u'stim': u'4_ang_qs_trimF', u'kross': u'cross.bmp', u'presentation_order': 67, u'zcue': 0.80567575168831174, u'correct_response': 57, u'iSI': 3.9615873015872998, u'pros_stim': u'4_ang_qs_trimF.wav', u'event_code': 16, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 3}
+195.8731	EXP	Stopped presenting emoticons
+196.3663	EXP	Started presenting fixation
+198.3339	EXP	Stopped presenting fixation
+198.3339	EXP	Started presenting emoticons
+198.8922	DATA	Keypress: 3
+198.8972	EXP	New trial (rep=0, index=67): {u'inc_response': 89, u'stim': u'4_ang_ss_trimF', u'kross': u'cross.bmp', u'presentation_order': 68, u'zcue': 1.4046911804528555, u'correct_response': 59, u'iSI': 3.9851927437641699, u'pros_stim': u'4_ang_ss_trimF.wav', u'event_code': 18, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 3}
+198.9058	EXP	Stopped presenting emoticons
+199.3998	EXP	Started presenting fixation
+201.3883	EXP	Stopped presenting fixation
+201.3883	EXP	Started presenting emoticons
+201.5899	DATA	Keypress: 3
+201.5946	EXP	New trial (rep=0, index=68): {u'inc_response': 75, u'stim': u'2_hap_sw_trimF', u'kross': u'cross.bmp', u'presentation_order': 69, u'zcue': 0.063624465804048597, u'correct_response': 45, u'iSI': 3.18668934240362, u'pros_stim': u'2_hap_sw_trimF.wav', u'event_code': 5, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 1}
+201.6055	EXP	Stopped presenting emoticons
+202.0969	EXP	Started presenting fixation
+203.2890	EXP	Stopped presenting fixation
+203.2890	EXP	Started presenting emoticons
+204.0879	DATA	Keypress: 1
+204.0898	EXP	New trial (rep=0, index=69): {u'inc_response': 95, u'stim': u'4_fea_qs_trimF', u'kross': u'cross.bmp', u'presentation_order': 70, u'zcue': 0.78164074653547022, u'correct_response': 65, u'iSI': 3.9427210884353698, u'pros_stim': u'4_fea_qs_trimF.wav', u'event_code': 24, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 2}
+204.0978	EXP	Stopped presenting emoticons
+204.5922	EXP	Started presenting fixation
+206.5472	EXP	Stopped presenting fixation
+206.5472	EXP	Started presenting emoticons
+206.6914	DATA	Keypress: 2
+206.6928	EXP	New trial (rep=0, index=70): {u'inc_response': 76, u'stim': u'3_hap_ss_trimF', u'kross': u'cross.bmp', u'presentation_order': 71, u'zcue': 0.23169249593766542, u'correct_response': 46, u'iSI': 3.35551020408163, u'pros_stim': u'3_hap_ss_trimF.wav', u'event_code': 6, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 1}
+206.7084	EXP	Stopped presenting emoticons
+207.1948	EXP	Started presenting fixation
+208.5581	EXP	Stopped presenting fixation
+208.5581	EXP	Started presenting emoticons
+209.3089	DATA	Keypress: 1
+209.3105	EXP	New trial (rep=0, index=71): {u'inc_response': 82, u'stim': u'3_ang_qw_trimF', u'kross': u'cross.bmp', u'presentation_order': 72, u'zcue': -0.7317971821406829, u'correct_response': 52, u'iSI': 2.8854421768707481, u'pros_stim': u'3_ang_qw_trimF.wav', u'event_code': 11, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 3}
+209.3185	EXP	Stopped presenting emoticons
+209.8127	EXP	Started presenting fixation
+210.7046	EXP	Stopped presenting fixation
+210.7046	EXP	Started presenting emoticons
+210.9256	DATA	Keypress: 3
+210.9275	EXP	New trial (rep=0, index=72): {u'inc_response': 88, u'stim': u'1_ang_ss_trimF', u'kross': u'cross.bmp', u'presentation_order': 73, u'zcue': 1.2549373232617196, u'correct_response': 58, u'iSI': 3.54068027210884, u'pros_stim': u'1_ang_ss_trimF.wav', u'event_code': 17, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 3}
+210.9375	EXP	Stopped presenting emoticons
+211.4296	EXP	Started presenting fixation
+212.9780	EXP	Stopped presenting fixation
+212.9780	EXP	Started presenting emoticons
+213.0240	DATA	Keypress: 3
+213.0261	EXP	New trial (rep=0, index=73): {u'inc_response': 91, u'stim': u'3_fea_qs_trimF', u'kross': u'cross.bmp', u'presentation_order': 74, u'zcue': -1.1913061482898895, u'correct_response': 61, u'iSI': 3.7509750566893398, u'pros_stim': u'3_fea_qs_trimF.wav', u'event_code': 20, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 2}
+213.0382	EXP	Stopped presenting emoticons
+213.5285	EXP	Started presenting fixation
+215.2866	EXP	Stopped presenting fixation
+215.2866	EXP	Started presenting emoticons
+215.5467	DATA	Keypress: 2
+215.5538	EXP	New trial (rep=0, index=74): {u'inc_response': 90, u'stim': u'3_fea_ss_trimF', u'kross': u'cross.bmp', u'presentation_order': 75, u'zcue': -1.5491056174137092, u'correct_response': 60, u'iSI': 3.30308390022675, u'pros_stim': u'3_fea_ss_trimF.wav', u'event_code': 19, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 2}
+215.5653	EXP	Stopped presenting emoticons
+216.0564	EXP	Started presenting fixation
+217.3685	EXP	Stopped presenting fixation
+217.3685	EXP	Started presenting emoticons
+217.6014	DATA	Keypress: 2
+217.6034	EXP	New trial (rep=0, index=75): {u'inc_response': 77, u'stim': u'3_hap_qw_trimF', u'kross': u'cross.bmp', u'presentation_order': 76, u'zcue': 1.3965527081060551, u'correct_response': 47, u'iSI': 3.0733333333333297, u'pros_stim': u'3_hap_qw_trimF.wav', u'event_code': 7, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 1}
+217.6137	EXP	Stopped presenting emoticons
+218.1057	EXP	Started presenting fixation
+219.1846	EXP	Stopped presenting fixation
+219.1846	EXP	Started presenting emoticons
+219.4070	DATA	Keypress: 1
+219.4091	EXP	New trial (rep=0, index=76): {u'inc_response': 81, u'stim': u'2_ang_ss_trimF', u'kross': u'cross.bmp', u'presentation_order': 77, u'zcue': -1.0313048965229548, u'correct_response': 51, u'iSI': 3.6721768707482898, u'pros_stim': u'2_ang_ss_trimF.wav', u'event_code': 10, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 3}
+219.4198	EXP	Stopped presenting emoticons
+219.9113	EXP	Started presenting fixation
+221.5910	EXP	Stopped presenting fixation
+221.5910	EXP	Started presenting emoticons
+222.1143	DATA	Keypress: 1
+222.1162	EXP	New trial (rep=0, index=77): {u'inc_response': 86, u'stim': u'4_ang_sw_trimF', u'kross': u'cross.bmp', u'presentation_order': 78, u'zcue': 0.65592189449717464, u'correct_response': 56, u'iSI': 3.4781405895691599, u'pros_stim': u'4_ang_sw_trimF.wav', u'event_code': 15, u'emoticon_H': u'Emoticons_H.bmp', u'cor_response': 3}
+222.1275	EXP	Stopped presenting emoticons
+222.6189	EXP	Started presenting fixation
+224.1050	EXP	Stopped presenting fixation
+224.1050	EXP	Started presenting emoticons
+224.3706	DATA	Keypress: 3
+224.7193	EXP	Stopped presenting emoticons
+224.7193	EXP	Started presenting completeMsg
+224.8625	DATA	Keypress: 3
