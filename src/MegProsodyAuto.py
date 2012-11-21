@@ -266,8 +266,6 @@ for thisTrial in trials:
                     # was this 'correct'?
                     if (key_resp.keys == str(cor_response)): key_resp.corr = 1
                     else: key_resp.corr=0
-                    # abort routine on response
-                    continueRoutine = False
         
         # *emoticons* updates
         if t >= 0.0 and emoticons.status == NOT_STARTED:
