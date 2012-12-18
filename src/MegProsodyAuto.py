@@ -206,7 +206,7 @@ for thisTrial in trials:
             parallel.setData(trigg_code) #sends trigg_code from conditions file
 
         #PARALLEL CHECK
-        if t >= 0.5 + 0.05 and megStim.status = NOT_STARTED:
+        if t >= 0.5 + 0.05 and megStim.status == NOT_STARTED:
             parallel.setData(0)
         
         #TIMEFIX: changes megStim.status to FINISHED after duration
