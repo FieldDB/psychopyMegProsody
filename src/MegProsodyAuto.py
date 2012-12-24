@@ -48,7 +48,7 @@ win = visual.Window(size=(1366, 768), fullscr=True, screen=0, allowGUI=False, al
 # Initialize components for Routine "beginfo"
 beginfoClock = core.Clock()
 text = visual.TextStim(win=win, ori=0, name='text',
-    text='You will first hear a sentence at the prompt screen. Then, you will be brought to a selection screen.\n\nPlease press the corresponding number key with the emotion.',
+    text='You will hear a short vocal utterance, when the probe with the yellow emoticons appears, press the button # that best describes the emotion heard in the voice.',
     font='Arial',
     pos=[0, 0], height=0.1, wrapWidth=None,
     color='white', colorSpace='rgb', opacity=1,
