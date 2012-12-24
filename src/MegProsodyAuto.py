@@ -183,8 +183,7 @@ for thisTrial in trials:
         # update/draw components on each frame
         
         # *fixation* updates
-        #TIMEFIX: added a 0.5 second delay preceeding
-        if t >= 0.5 and fixation.status == NOT_STARTED:
+        if t >= 0.0 and fixation.status == NOT_STARTED:
             # keep track of start time/frame for later
             fixation.tStart = t  # underestimates by a little under one frame
             fixation.frameNStart = frameN  # exact frame index
@@ -192,8 +191,7 @@ for thisTrial in trials:
         elif fixation.status == STARTED and t >= 0.5 + stimLength:
             fixation.setAutoDraw(False)
         # start/stop megStim
-        #TIMEFIX: added a 0.5 second delay preceeding
-        if t >= 0.5 and megStim.status == NOT_STARTED:
+        if t >= 0.0 and megStim.status == NOT_STARTED:
             #PARALLEL CLEAR
             parallel.setData(0) #sets all pins low
             
@@ -206,7 +204,7 @@ for thisTrial in trials:
             parallel.setData(trigg_code) #sends trigg_code from conditions file
 
         #PARALLEL CHECK
-        if t >= 0.5 + 0.05 and megStim.status == NOT_STARTED:
+        if t >= 0.0 + 0.05 and megStim.status == NOT_STARTED:
             parallel.setData(0)
         
         #TIMEFIX: changes megStim.status to FINISHED after duration
