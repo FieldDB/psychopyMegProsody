@@ -285,7 +285,7 @@ for thisTrial in trials:
             emoticons.tStart = t  # underestimates by a little under one frame
             emoticons.frameNStart = frameN  # exact frame index
             emoticons.setAutoDraw(True)
-        elif emoticons.status == STARTED and t >= (0.0 + 4.0):
+        elif emoticons.status == STARTED and t >= (0.0 + 2.3):
             emoticons.setAutoDraw(False)
         
         # check if all components have finished
