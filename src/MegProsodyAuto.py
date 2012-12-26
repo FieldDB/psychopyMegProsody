@@ -188,7 +188,7 @@ for thisTrial in trials:
             fixation.tStart = t  # underestimates by a little under one frame
             fixation.frameNStart = frameN  # exact frame index
             fixation.setAutoDraw(True)
-        elif fixation.status == STARTED and t >= 0.5 + stimLength:
+        elif fixation.status == STARTED and t >= 0.0 + stimLength:
             fixation.setAutoDraw(False)
         # start/stop megStim
         if t >= 0.0 and megStim.status == NOT_STARTED:
