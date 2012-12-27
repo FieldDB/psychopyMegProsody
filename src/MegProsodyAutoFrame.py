@@ -14,10 +14,10 @@ import numpy as np  # whole numpy lib is available, prepend 'np.'
 from numpy import sin, cos, tan, log, log10, pi, average, sqrt, std, deg2rad, rad2deg, linspace, asarray
 from numpy.random import random, randint, normal, shuffle
 import os  # handy system and path functions
-##from psychopy import parallel
+from psychopy import parallel
 
-##parallel.setPortAddress(0x378) #address for parallel port on many machines
-##pinNumber = 2 #choose a pin to write
+parallel.setPortAddress(0x378) #address for parallel port on many machines
+pinNumber = 2 #choose a pin to write
 
 # Store info about the experiment session
 expName = 'None'  # from the Builder filename that created this script
@@ -193,7 +193,7 @@ for thisTrial in trials:
         # start/stop megStim
         if frameN >= 0 and megStim.status == NOT_STARTED:
             #PARALLEL CLEAR
-            ##parallel.setData(0) #sets all pins low
+            parallel.setData(0) #sets all pins low
             
             # keep track of start time/frame for later
             megStim.tStart = t  # underestimates by a little under one frame
@@ -201,11 +201,12 @@ for thisTrial in trials:
             megStim.play()  # start the sound (it finishes automatically)
 
             #PARALLEL SET
-            ##parallel.setData(trigg_code) #sends trigg_code from conditions file
+            parallel.setData(trigg_code) #sends trigg_code from conditions file
 
         #PARALLEL CHECK
-        ##if frameN >= 0.0 + 0.05 * 60 and megStim.status == NOT_STARTED:
-            ##parallel.setData(0)
+        #for frames can only use whole number of frames
+        if frameN >= 1 and megStim.status == NOT_STARTED:
+            parallel.setData(0)
         
         #TIMEFIX: changes megStim.status to FINISHED after duration
         if frameN >= stimLength * 60 and megStim.status == STARTED:
