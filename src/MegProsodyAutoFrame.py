@@ -173,6 +173,7 @@ for thisTrial in trials:
     
     #TIMEFIX: gets the duration of the wav file for bawaSound
     stimLength = megStim.getDuration()
+    stimFrameLen = stimLength * 60 # gives the stim duration in frames (60 Hz)
     
     #-------Start Routine "soundPresent"-------
     continueRoutine = True
@@ -188,7 +189,7 @@ for thisTrial in trials:
             fixation.tStart = t  # underestimates by a little under one frame
             fixation.frameNStart = frameN  # exact frame index
             fixation.setAutoDraw(True)
-        elif fixation.status == STARTED and frameN >= stimLength:
+        elif fixation.status == STARTED and frameN >= stimFrameLen:
             fixation.setAutoDraw(False)
         # start/stop megStim
         if frameN >= 0 and megStim.status == NOT_STARTED:
@@ -209,7 +210,7 @@ for thisTrial in trials:
             parallel.setData(0)
         
         #TIMEFIX: changes megStim.status to FINISHED after duration
-        if frameN >= stimLength * 60 and megStim.status == STARTED:
+        if frameN >= stimFrameLen and megStim.status == STARTED:
             megStim.status = FINISHED
         
         # check if all components have finished
