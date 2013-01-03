@@ -257,9 +257,11 @@ for thisTrial in trials:
         # if: (1) on frame past the frame duration of the stimuli
         #     (2) stimuli has started playing
         # then: (1) set stimuli status to finished
+        #       (2) record time stimulus plays for
         
         if frameN >= stimFrameLen and megStim.status == STARTED:
             megStim.status = FINISHED
+            stimEnd = soundPresentClock.getTime()
 
       # SET megStim.status FINISHED ==(END)==========================
 
@@ -366,6 +368,7 @@ for thisTrial in trials:
         # else if: (1) emoticons being displayed
         #          (2) 2.3 seconds in frames have passed
         # then: (1) stop drawing emoticons
+        #       (2) record time emoticons stay on screen
         
         if frameN >= 0 and emoticons.status == NOT_STARTED:
             # keep track of start time/frame for later
@@ -374,6 +377,7 @@ for thisTrial in trials:
             emoticons.setAutoDraw(True)
         elif emoticons.status == STARTED and frameN >= 2.3 * 60:
             emoticons.setAutoDraw(False)
+            emoticonsEnd = trialClock.getTime()
 
       # emoticons UPDATES ==(END)====================================
 
@@ -412,6 +416,9 @@ for thisTrial in trials:
     trials.addData('key_resp.corr', key_resp.corr)
     if key_resp.keys != None:  # we had a response
         trials.addData('key_resp.rt', key_resp.rt)
+    trials.addData('stimEnd',stimEnd)
+    trials.addData('emoticonsEnd',emoticonsEnd)
+    trials.addData('totalTime', stimEnd + emoticonsEnd)
     thisExp.nextEntry()
     
 # completed 1 repeats of 'trials'
