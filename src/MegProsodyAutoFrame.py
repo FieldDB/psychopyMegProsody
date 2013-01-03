@@ -176,14 +176,28 @@ for thisTrial in trials:
     stimFrameLen = stimLength * 60 # gives the stim duration in frames (60 Hz)
     
     #-------Start Routine "soundPresent"-------
+
     continueRoutine = True
     while continueRoutine:
         # get current time
         t = soundPresentClock.getTime()
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-        # update/draw components on each frame
+
+    # UPDATE/DRAW COMPONENTS ON EACH FRAME ==(START)=================
         
-        # *fixation* updates
+      # fixation UPDATES ==(START)===================================
+
+        # Quick description: controls when to show fixation on screen
+        
+        # if: (1) on first frame (frame 0)
+        #     (2) the fixation has not started
+        # then: (1) record start time in seconds (t)
+        #       (2) record start time in frames (frameN)
+        #       (3) draw the fixation
+        # else if: (1) fixation has started
+        #          (2) on frame past the frame duration of the stimuli
+        # then: (1) stop drawing fixation
+
         if frameN >= 0 and fixation.status == NOT_STARTED:
             # keep track of start time/frame for later
             fixation.tStart = t  # underestimates by a little under one frame
@@ -191,7 +205,21 @@ for thisTrial in trials:
             fixation.setAutoDraw(True)
         elif fixation.status == STARTED and frameN >= stimFrameLen:
             fixation.setAutoDraw(False)
-        # start/stop megStim
+            
+      # fixation UPDATES ==(END)=====================================
+            
+      # START/STOP megStim ==(START)=================================
+
+        # Quick description: controls when stimuli is played and stops
+
+        # if: (1) on first frame (frame 0)
+        #     (2) the stimuli has not started playing
+        # then: (1) clear the parallel pins
+        #       (2) record start time in seconds (t)
+        #       (3) record start time in frames (frameN)
+        #       (4) play the stimuli
+        #       (5) set the parallel pins
+        
         if frameN >= 0 and megStim.status == NOT_STARTED:
             #PARALLEL CLEAR
             parallel.setData(0) #sets all pins low
@@ -204,14 +232,38 @@ for thisTrial in trials:
             #PARALLEL SET
             parallel.setData(trigg_code) #sends trigg_code from conditions file
 
-        #PARALLEL CHECK
-        #for frames can only use whole number of frames
-        if frameN >= 1 and megStim.status == NOT_STARTED:
-            parallel.setData(0)
+      # START/STOP megStim ==(END)===================================
+
+    # UPDATE/DRAW COMPONENTS ON EACH FRAME ==(END)===================
+
+    # ENDING TASKS ==(START)=========================================
+
+      # CLEAR PARALLEL ==(START)=====================================
+
+        # Quick description: clear parallel port
+
+        # if: (1) 1 frame has passed (frame 1)
+        # then: (1) clear the parallel pins
         
-        #TIMEFIX: changes megStim.status to FINISHED after duration
+        if frameN >= 1:
+            parallel.setData(0)
+
+      # CLEAR PARALLEL ==(END)=======================================
+
+      # SET megStim.status FINISHED ==(START)========================
+
+        # Quick description: sets stimuli status to finished when done
+
+        # if: (1) on frame past the frame duration of the stimuli
+        #     (2) stimuli has started playing
+        # then: (1) set stimuli status to finished
+        
         if frameN >= stimFrameLen and megStim.status == STARTED:
             megStim.status = FINISHED
+
+      # SET megStim.status FINISHED ==(END)==========================
+
+    # ENDING TASKS ==(END)===========================================
         
         # check if all components have finished
         if not continueRoutine:  # a component has requested that we end
@@ -258,9 +310,24 @@ for thisTrial in trials:
         # get current time
         t = trialClock.getTime()
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-        # update/draw components on each frame
+
+    # UPDATE/DRAW COMPONENTS ON EACH FRAME ==(START)=================    
+
+      # key_resp UPDATES ==(START)===================================
+
+        # Quick description: controls when answers can be received
+
+        # if: (1) on first frame (frame 0)
+        #     (2) key responses not being received yet
+        # then: (1) record start time in seconds (t)
+        #       (2) record start time in frames (frameN)
+        #       (3) start receiving key responses
+        #       (4) start key response clock to zero (reset)
+        #       (5) clear any previous key responses
+        # else if: (1) key responses are being received
+        #          (2) 2.3 seconds in frames have passed
+        # then: (1) stop receiving key responses
         
-        # *key_resp* updates
         if frameN >= 0 and key_resp.status == NOT_STARTED:
             # keep track of start time/frame for later
             key_resp.tStart = t  # underestimates by a little under one frame
@@ -269,8 +336,12 @@ for thisTrial in trials:
             # keyboard checking is just starting
             key_resp.clock.reset()  # now t=0
             event.clearEvents()
-        elif key_resp.status == STARTED and frameN >= 4 * 60:
+        elif key_resp.status == STARTED and frameN >= 2.3 * 60:
             key_resp.status = STOPPED
+
+        # if: (1) key responses are being recceived
+        # then: (1) record keys, response time & correct
+        
         if key_resp.status == STARTED:  # only update if being drawn
             theseKeys = event.getKeys(keyList=['1', '2', '3','4'])
             if len(theseKeys) > 0:  # at least one key was pressed
@@ -281,7 +352,21 @@ for thisTrial in trials:
                     if (key_resp.keys == str(cor_response)): key_resp.corr = 1
                     else: key_resp.corr=0
         
-        # *emoticons* updates
+      # key_resp UPDATES ==(END)=====================================
+
+      # emoticons UPDATES ==(START)==================================
+        
+        # Quick description: controls when the emotions displayed
+        
+        # if: (1) on first frame (frame 0)
+        #     (2) emoticons are not being displayed
+        # then: (1) record start time in seconds (t)
+        #       (2) record start time in frames (frameN)
+        #       (3) draw the emoticons
+        # else if: (1) emoticons being displayed
+        #          (2) 2.3 seconds in frames have passed
+        # then: (1) stop drawing emoticons
+        
         if frameN >= 0 and emoticons.status == NOT_STARTED:
             # keep track of start time/frame for later
             emoticons.tStart = t  # underestimates by a little under one frame
@@ -289,6 +374,10 @@ for thisTrial in trials:
             emoticons.setAutoDraw(True)
         elif emoticons.status == STARTED and frameN >= 2.3 * 60:
             emoticons.setAutoDraw(False)
+
+      # emoticons UPDATES ==(END)====================================
+
+    # UPDATE/DRAW COMPONENTS ON EACH FRAME ==(END)===================
         
         # check if all components have finished
         if not continueRoutine:  # a component has requested that we end
