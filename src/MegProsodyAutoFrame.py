@@ -173,7 +173,8 @@ for thisTrial in trials:
     
     #TIMEFIX: gets the duration of the wav file for bawaSound
     stimLength = megStim.getDuration()
-    stimFrameLen = stimLength * 60 # gives the stim duration in frames (60 Hz)
+    # gives the stim duration in frames (60 Hz) & padded by 1 frame
+    stimFrameLen = stimLength * 60 + 1
     
     #-------Start Routine "soundPresent"-------
 
