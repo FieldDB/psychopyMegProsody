@@ -246,7 +246,7 @@ for thisTrial in trials:
         # if: (1) 1 frame has passed (frame 1)
         # then: (1) clear the parallel pins
         
-        if frameN >= 1:
+        if frameN >= 2:
             parallel.setData(0)
 
       # CLEAR PARALLEL ==(END)=======================================
